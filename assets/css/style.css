@@ -1,0 +1,29 @@
+/* Global Styles */
+
+ /* hero banner */
+ figure{
+     background-image: url('../images//3801029.jpeg');
+     background-size: cover;
+     background-position: center;
+     min-height: 30vh;
+     display: flex;
+     padding: 2%;
+     color: aliceblue;
+     justify-content: flex-end;
+     align-items: flex-end;
+     text-align: right;
+ }
+
+ figure div {
+     flex: 0 0 90%
+ }
+
+ figure div h1{
+     background-color: azure;
+     color: plum;
+     margin: 0;
+     padding: 4px;
+     display: inline;
+     font-size: 40px;
+     font-family: 'Roboto Condensed', sans-serif;
+ }
