@@ -63,6 +63,12 @@ nav ul li {
  }
 
  /* Body */
+
+ main {
+     margin-left: 75px;
+     margin-right: 75px;
+ }
+
 p {
     max-width: 85%;
 }
@@ -79,7 +85,7 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 /* .flex-container { flex: 3 0px; }
@@ -90,14 +96,24 @@ h2 {
 } */
 
 .horiseon img {
-    max-width: 1000px;
-    max-height: 350px;
-   flex-basis: 33%;
-   align-self: center;
+    max-width: 2000px;
+    max-height: 550px;
+    flex-basis: 35%;
+    flex-grow: 8;
+    align-self: center;
+    gap 200px 20px 200px 20px;
 }
 
 .tbd2 img {
-    
+    flex-grow: 1;
+}
+
+.tbd3 img {
+    flex-grow: 1;
+}
+
+.tbd4 img {
+    flex-grow: 1;
 }
 
 section div p {
