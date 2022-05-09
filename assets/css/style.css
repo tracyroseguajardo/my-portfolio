@@ -1,28 +1,40 @@
 /* Global Styles */
 :root {
-    --darkhue: #661890;
-    --lighthue: #b7a8a8;
+    --darkhue: #3E53A4;
+    --lighthue: #118FE0;
 }
 body {
-    background-color: rgb(94, 94, 217);
+    /* background-color: rgb(94, 94, 217); */
+
+    /*background-image: linear-gradient(rgba(240, 254, 44, 0.693) 0%,rgba(147, 201, 53, 0.6) 100%); */
+
+    /*background-image: linear-gradient(rgba(223, 162, 209, 0.693) 0%,rgba(71, 84, 153, 0.6) 100%); */
+
+    background-image: linear-gradient(rgba(28, 128, 93, 0.693) 0%,rgba(9, 71, 41, 0.717) 100%);
+}
+
+p {
+    color: var(--darkhue);
 }
 
 /* Header */
 h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
-    color: hsl(0, 5%, 33%);
+    /* color: hsl(0, 5%, 33%); */
+    color: var(--darkhue);
     display: inline-block;
 }
 
 a { 
     text-decoration: none;
-    color: var(--lighthue)
+    color: var(--darkhue)
 }
 
 nav {
     float: right;
     font-size: 24px;
+    font-family:'Courier New', Courier, monospace;
 }
 
 nav ul{
@@ -35,7 +47,7 @@ nav ul li {
 }
 
  /* hero banner */
- figure{
+ /*figure{
      background-image: url('../images//3801029.jpeg');
      background-size: cover;
      background-position: center;
@@ -46,15 +58,28 @@ nav ul li {
      justify-content: flex-end;
      align-items: flex-end;
      text-align: right;
- }
+ } */
+
+ figure{
+    background-image: url('../images//THPF-Web-Art-Gallery-Harwood-Steiger-7.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 30vh;
+    display: flex;
+    padding: 2%;
+    color: aliceblue;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
 
  figure div {
      flex: 0 0 90%
  }
 
  figure div h1{
-     background-color: azure;
-     color: plum;
+     background-color:rgb(245, 218, 186);
+     color: var(--lighthue);
      margin: 0;
      padding: 4px;
      display: inline;
@@ -69,15 +94,23 @@ nav ul li {
      margin-right: 75px;
  }
 
+ .flexabout {
+     display:flex;
+     column-gap: 15px;
+ }
+
 p {
     max-width: 85%;
 }
  .headshot {
     max-height: 200px;
+    padding-top: 20px;
 }
 
 h2 {
-    color: var(--lighthue)
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--darkhue);
+    font-size: 24px;
 }
 
 .flex-container {
@@ -117,7 +150,8 @@ h2 {
 }
 
 section div p {
-    display: inline-block;
+    font-size: 20px;
+    margin-top: 5px;
 }
 
  /* Footer */
