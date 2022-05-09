@@ -4,12 +4,6 @@
     --lighthue: #118FE0;
 }
 body {
-    /* background-color: rgb(94, 94, 217); */
-
-    /*background-image: linear-gradient(rgba(240, 254, 44, 0.693) 0%,rgba(147, 201, 53, 0.6) 100%); */
-
-    /*background-image: linear-gradient(rgba(223, 162, 209, 0.693) 0%,rgba(71, 84, 153, 0.6) 100%); */
-
     background-image: linear-gradient(rgba(28, 128, 93, 0.693) 0%,rgba(9, 71, 41, 0.717) 100%);
 }
 
@@ -21,7 +15,6 @@ p {
 h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
-    /* color: hsl(0, 5%, 33%); */
     color: var(--darkhue);
     display: inline-block;
 }
@@ -47,19 +40,6 @@ nav ul li {
 }
 
  /* hero banner */
- /*figure{
-     background-image: url('../images//3801029.jpeg');
-     background-size: cover;
-     background-position: center;
-     min-height: 30vh;
-     display: flex;
-     padding: 2%;
-     color: aliceblue;
-     justify-content: flex-end;
-     align-items: flex-end;
-     text-align: right;
- } */
-
  figure{
     background-image: url('../images//THPF-Web-Art-Gallery-Harwood-Steiger-7.jpg');
     background-size: cover;
@@ -87,6 +67,16 @@ nav ul li {
      font-family: 'Roboto Condensed', sans-serif;
  }
 
+ /* Hero banner adjustments at 992px or smaller */
+@media screen and (max-width: 992px) {
+    figure {
+        width: 90%;
+    }
+    figure div h1 {
+        font-size: 30px;
+    }
+}
+
  /* Body */
 
  main {
@@ -108,7 +98,7 @@ p {
 }
 
 h2 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family:monospace;
     color: var(--darkhue);
     font-size: 24px;
 }
@@ -121,13 +111,6 @@ h2 {
     gap: 30px;
 }
 
-/* .flex-container { flex: 3 0px; }
-  .tbd1 { order: 1; }
-  .horiseon    { order: 2; }
-  .tbd2 { order: 3; }
-  .tbd3  { order: 4; }
-} */
-
 .horiseon img {
     max-width: 2000px;
     max-height: 550px;
@@ -138,7 +121,7 @@ h2 {
 }
 
 .tbd2 img {
-    flex-grow: 1;
+    flex-grow: 1;;
 }
 
 .tbd3 img {
