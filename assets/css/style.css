@@ -41,7 +41,7 @@ nav ul li {
 
  /* hero banner */
  figure{
-    background-image: url('../images//THPF-Web-Art-Gallery-Harwood-Steiger-7.jpg');
+    background-image: url('../images//steiger-banner.jpg');
     background-size: cover;
     background-position: center;
     min-height: 30vh;
@@ -111,26 +111,28 @@ h2 {
     gap: 30px;
 }
 
-.horiseon img {
+.highlight img {
     max-width: 2000px;
     max-height: 550px;
     flex-basis: 35%;
     flex-grow: 8;
     align-self: center;
-    gap 200px 20px 200px 20px;
+    gap: 200px 20px 200px 20px;
 }
 
-.tbd2 img {
-    flex-grow: 1;;
+.cube img {
+    flex-grow: 1;
+    width: 300px;
+    height: 150px;
 }
 
-.tbd3 img {
+/* .tbd3 img {
     flex-grow: 1;
 }
 
 .tbd4 img {
     flex-grow: 1;
-}
+} */
 
 section div p {
     font-size: 20px;
